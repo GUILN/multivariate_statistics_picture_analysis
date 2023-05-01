@@ -35,6 +35,3 @@ def mlda(X,ns,nt,n):
     # Ki = np.flipud(np.argsort(np.diag(Qa)))
     # L = Qv[:,Ki[0:n]]
     # K = np.flipud(Ks[0:n])
-    # V = K/np.sum(Ks)
-    # return L,K,V 
-
